@@ -6,6 +6,7 @@ body {
   font-family: 'Aboreto', cursive;
   font-size: 14px;
   margin: 0;
+  min-width: 400px;
 }
 h1 {
   color: #fffffe;
@@ -25,6 +26,7 @@ p {
 form {
   width: 80%;
   max-width: 700px;
+  min-width: 300px;
   margin: 0 auto;
 }
 
@@ -37,7 +39,6 @@ textarea {
   border: none;
   border-radius: 10px;
   max-width: 96%;
-  min-width: 0%;
 }
 #check {
   width: 100%;
@@ -51,13 +52,14 @@ textarea {
 }
 button {
   display: block;
-  width: 90%;
+  max-width: fit-content;
+  min-width: 90%;
   height: 7vh;
   background-color: #7f5af0;
   color: #fffffe;
   font-family: 'Aboreto', cursive;
   font-size: 12px;
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 0 auto;
   border: none;
   border-radius: 10px;
 }
