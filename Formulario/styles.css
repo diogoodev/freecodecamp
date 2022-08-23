@@ -24,25 +24,23 @@ p {
 }
 form {
   width: 80%;
-  max-width: 800px;
-  min-width: 100px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 input,
 textarea {
-  display: block;
-  width: ;
-  padding: 1rem;
-  margin-top: 1em;
   color: #fffffe;
   background-color: #16161a;
   font-family: 'Aboreto', cursive;
   font-size: 12px;
   border: none;
   border-radius: 10px;
+  max-width: 96%;
+  min-width: 0%;
 }
 #check {
+  width: 100%;
   padding: 1rem;
   margin: 0.5rem auto;
 }
@@ -53,13 +51,13 @@ textarea {
 }
 button {
   display: block;
-  width: 76%;
+  width: 90%;
   height: 7vh;
   background-color: #7f5af0;
   color: #fffffe;
   font-family: 'Aboreto', cursive;
   font-size: 12px;
-  margin: 5% auto;
+  margin: 2rem 2rem 2rem 2rem;
   border: none;
   border-radius: 10px;
 }
@@ -73,29 +71,29 @@ fieldset {
   border-radius: 10px;
 }
 select {
-  display: inline-block;
-  padding: 1em;
-  margin: 0.5rem auto;
   color: #fffffe;
   background-color: #16161a;
   font-family: 'Aboreto', cursive;
-  font-size: 14px;
+  font-size: 12px;
   border: none;
   border-radius: 10px;
-  display: inline-block;
 }
 #check {
   width: unset;
   margin: 0;
-}
-fieldset:first-of-type {
-  margin: 3rem;
+  min-width: 15px;
+  min-height: 15px;
+  margin-right: 5px;
 }
 fieldset:last-of-type {
   margin-bottom: -150px;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+input,
+textarea,
+select {
+  min-height: 1rem;
+  margin: 0.5em 0 0 0;
+  width: 100%;
+  padding: 1em;
 }
