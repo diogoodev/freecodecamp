@@ -6,4 +6,4 @@ Todos os cursos e exercícios/projetos feitos durante o curso
  
 ###### _Projeto de conclusão do Modulo 1_
 
-  - [Pagina de Tributo ao Personagem Erick Marshall de How I Met Your Mother:](ProjetoTributo/index.html) 
+  - [Pagina de Tributo ao Personagem Erick Marshall de How I Met Your Mother:](https://diogoodev.github.io/tributepage/)
