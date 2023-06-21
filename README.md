@@ -1,6 +1,6 @@
 # Meu Repositório do FreeCodeCamp
 
-Este repositório contém todos os cursos, exercícios e projetos que fiz durante o curso no [FreeCodeCamp](https://www.freecodecamp.org/).
+Este repositório contém todos os cursos, exercícios e projetos que fiz durante o curso no FreeCodeCamp.
 Para visualizar o site do projeto, acesse: [https://diogoodev.github.io/freecodecamp/](https://diogoodev.github.io/freecodecamp/)
 
 ## Cursos e Exercícios
