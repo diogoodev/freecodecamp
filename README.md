@@ -25,5 +25,5 @@ Sinta-se à vontade para explorar os diretórios correspondentes a cada curso, e
 
 Fique à vontade para explorar cada projeto e entre em contato comigo se tiver alguma dúvida ou sugestão.
 
-✨ Divirta-se e bons estudos! ✨
+
 
