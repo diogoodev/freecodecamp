@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>HTMLdocs</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>HTMLdocs</header>
+    <a href="#HTML_basics" class="nav-link">HTML basics</a>
+    <a href="#Introduction_to_HTML" class="nav-link">Introduction to HTML</a>
+    <a href="#HTML_basic_syntax" class="nav-link">HTML basic syntax</a>
+    <a href="#Elements_in_a_nutshell" class="nav-link">Elements in a nutshell</a>
+    <a href="#Head_&_Body" class="nav-link">Head & Body</a>
+    <a href="#Meta_tags" class="nav-link">Meta tags</a>
+
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="HTML_basics">
+      <header>HTML basics</header>
+      <p>HTML, which stands for HyperText Markup Language, is the standard markup language used to create the structure of a web page. It provides a set of elements or tags that define the various parts of a document, such as headings, paragraphs, links, images, and more.</p>
+  <p>Some basic HTML tags include <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> for headings, <code>&lt;p&gt;</code> for paragraphs, and <code>&lt;a&gt;</code> for links.</p>
+    </section>
+    <section class="main-section" id="Introduction_to_HTML">
+      <header>Introduction to HTML</header>
+      <p><span>HTML, or HyperText Markup Language</span>, has a rich history that dates back to the early days of the World Wide Web. It was first introduced by <em>Sir Tim Berners-Lee</em>, a British computer scientist, in 1991. The initial purpose of HTML was to facilitate the sharing and exchange of scientific documents among researchers.</p>
+      <p>Over the years, HTML has evolved through various versions, each introducing new features and improvements. The development of HTML is overseen by the World Wide Web Consortium (W3C), an international community that works to standardize web technologies. HTML has played a crucial role in the growth and expansion of the internet, serving as the foundation for creating and structuring web content.</p>
+    </section>
+    <section class="main-section" id="HTML_basic_syntax">
+      <header>HTML Basic Syntax</header>
+      <p>HTML follows a straightforward syntax that consists of elements or tags, each serving a specific purpose in structuring a web page. These elements are enclosed in angle brackets, such as <code>&lt;tagname&gt;</code>. A typical HTML document includes a <code>&lt;!DOCTYPE html&gt;</code> declaration, an opening <code>&lt;html&gt;</code> tag, a <code>&lt;head&gt;</code> section for meta-information, and a <code>&lt;body&gt;</code> section for the content.</p>
+  
+  <p>HTML played a pivotal role in the early development of the World Wide Web by providing a standardized way to create and structure documents. It allowed information to be presented in a consistent manner across different platforms and browsers, contributing to the accessibility and universality of the web.</p>
+  
+  <p>Today, HTML remains a fundamental technology for web development. It is used to create the structure of web pages, incorporating various elements such as headings, paragraphs, lists, images, links, and more. Modern web development often combines HTML with CSS (Cascading Style Sheets) for styling and JavaScript for interactivity, forming the core technologies of the front-end development stack.</p>
+  
+  <p>Here's an example of the basic HTML structure:</p>
+  
+  <pre>
+    <code>
+      &lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;My First HTML Page&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          &lt;h1&gt;Hello, World!&lt;/h1&gt;
+          &lt;p&gt;This is a simple HTML page.&lt;/p&gt;
+        &lt;/body&gt;
+      &lt;/html&gt;
+    </code>
+  </pre>
+    </section>
+    </section>
+    <section class="main-section" id="Elements_in_a_nutshell">
+      <header>Elements in a nutshell</header>
+      <p>HTML elements are the building blocks of a web page. Each element represents a specific piece of content or a structure on the page. Elements are defined by tags, which consist of an opening tag, content, and a closing tag. Some elements, like the <code>&lt;img&gt;</code> tag, are self-closing.</p>
+      
+      <p>Common HTML elements include:</p>
+      
+      <ul>
+        <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Headings for different levels of importance.</li>
+        <li><code>&lt;p&gt;</code>: Paragraphs of text.</li>
+        <li><code>&lt;a&gt;</code>: Links to other pages or resources.</li>
+        <li><code>&lt;img&gt;</code>: Embedding images.</li>
+        <li><code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code>: Unordered and ordered lists.</li>
+        <li><code>&lt;li&gt;</code>: List items.</li>
+        <li><code>&lt;div&gt;</code>: Division or grouping of content.</li>
+        <li><code>&lt;span&gt;</code>: Inline grouping of content.</li>
+        <li><code>&lt;table&gt;</code>: Creating tables.</li>
+        <li><code>&lt;form&gt;</code>: Form elements for user input.</li>
+      </ul>
+    
+      <p>Here's an example of using some of these elements:</p>
+      
+      <pre>
+        <code>
+          &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+          &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+          &lt;a href="#about"&gt;Learn more about us&lt;/a&gt;
+          &lt;img src="example.jpg" alt="An example image"&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;div&gt;This is a division of content.&lt;/div&gt;
+        </code>
+      </pre>
+    
+      <p>Understanding the purpose and usage of various HTML elements is essential for creating well-structured and semantically meaningful web pages.</p>
+    </section>
+    
+    <section class="main-section" id="Head_&_Body">
+      <header>Head & Body</header>
+      <p>In an HTML document, the structure is typically divided into two main sections: the <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code>.</p>
+      
+      <p>The <code>&lt;head&gt;</code> section contains meta-information about the document, such as the title, character set, linked stylesheets, and scripts. It is not directly visible on the web page but plays a crucial role in providing information to browsers and search engines.</p>
+    
+      <p>The <code>&lt;body&gt;</code> section, on the other hand, contains the actual content of the web page that users see and interact with. This is where you place headings, paragraphs, images, links, lists, and other elements that make up the visible part of the page.</p>
+    
+      <p>Here's a simple example:</p>
+      
+      <pre>
+        <code>
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;My Web Page&lt;/title&gt;
+              &lt;meta charset="UTF-8"&gt;
+              &lt;link rel="stylesheet" href="styles.css"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;Welcome to My Web Page&lt;/h1&gt;
+              &lt;p&gt;This is the main content of the page.&lt;/p&gt;
+              &lt;div&gt;
+                &lt;ul&gt;
+                  &lt;li&gt;1&lt;/li&gt;
+                  &lt;li&gt;2&lt;/li&gt;
+                  &lt;li&gt;3&lt;/li&gt;
+                  &lt;li&gt;4&lt;/li&gt;
+                  &lt;li&gt;5&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/div&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+    
+      <p>In this example, the <code>&lt;head&gt;</code> section includes the document title, character set, and a link to an external stylesheet. The <code>&lt;body&gt;</code> section contains a heading, a paragraph, and a list of numbers inside a <code>&lt;div&gt;</code>.</p>
+    </section>
+    </section>
+    <section class="main-section" id="Meta_tags">
+      <header>Meta tags</header>
+      <p>Meta tags in HTML are used to provide additional information about the document. They are placed inside the <code>&lt;head&gt;</code> section of an HTML document and are not visible on the webpage. Instead, they serve various purposes for browsers, search engines, and other web services.</p>
+    
+      <p>Here are some commonly used meta tags:</p>
+    
+      <ul>
+        <li><code>&lt;meta charset="UTF-8"&gt;</code>: Specifies the character encoding for the document (e.g., UTF-8).</li>
+        <li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>: Sets the viewport properties for responsive design.</li>
+        <li><code>&lt;meta name="description" content="A brief description of the page"&gt;</code>: Provides a concise description of the document for search engines.</li>
+        <li><code>&lt;meta name="keywords" content="keyword1, keyword2, ..."&gt;</code>: Specifies keywords relevant to the document's content.</li>
+        <li><code>&lt;meta name="author" content="Author Name"&gt;</code>: Indicates the author of the document.</li>
+        <!-- Add more meta tags as needed -->
+      </ul>
+    
+      <p>Here's an example of using some of these meta tags:</p>
+    
+      <pre>
+        <code>
+          &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;meta name="description" content="This is a sample webpage"&gt;
+            &lt;meta name="keywords" content="HTML, CSS, web development"&gt;
+            &lt;meta name="author" content="John Doe"&gt;
+            <!-- Add more meta tags as needed -->
+            &lt;title&gt;My Web Page&lt;/title&gt;
+          &lt;/head&gt;
+        </code>
+      </pre>
+    
+      <p>These meta tags provide essential information for browsers and search engines, contributing to better rendering, SEO, and overall user experience.</p>
+    </section>
+    
+  </main>
+</body>
+</html>
