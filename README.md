@@ -19,7 +19,7 @@ Sinta-se à vontade para explorar os diretórios correspondentes a cada curso, e
 
 ## Projetos de Conclusão do Curso de Banco de Dados Realacionais
 
-- [Banco de dados de corpos celestiais](https://github.com/diogoodev/freecodecamp/tree/main/bancos-de-dados-relacionais)
+- [Projetos](https://github.com/diogoodev/freecodecamp/tree/main/bancos-de-dados-relacionais)
 
 ## Como executar os projetos
 
