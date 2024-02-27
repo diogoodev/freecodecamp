@@ -17,6 +17,10 @@ Aqui estão os cursos e exercícios que concluí:
 
 Sinta-se à vontade para explorar os diretórios correspondentes a cada curso, exercício ou projeto para ver os arquivos e o código relacionados.
 
+## Projetos de Conclusão do Curso de Banco de Dados Realacionais
+
+- [Projetos](https://github.com/diogoodev/freecodecamp/tree/main/bancos-de-dados-relacionais)
+
 ## Como executar os projetos
 
 1. Clone este repositório em sua máquina local.
