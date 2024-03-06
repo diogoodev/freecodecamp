@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #09090a;
+  color: #ffffff;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 33vh;
+  grid-template-areas:
+    "a a a b b b"
+    "e c f b b b"
+    "d d d b b b";
+  align-items: start;
+}
+main {
+  width: 450px;
+  height: 100px;
+  align-items: center;
+  grid-area: c;
+}
+
+h1 {
+  font-size: calc(1vw + 3vh);
+}
+p {
+  font-size: 18px;
+  color: #c4c4cc;
+}
+.input-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-input {
+  margin-right: 10px;
+  width: 100%;
+  height: 58px;
+  color: #ffffff;
+  background: #202024;
+  font-size: 16px;
+  line-height: 160%;
+  border: none;
+  border-radius: 4px;
+  padding-left: 1rem;
+  outline: none;
+}
+.text-input:focus {
+  color: #ffffff;
+  line-height: 160%;
+  border: 1px solid #996dff;
+}
+input::placeholder {
+  color: #c4c4cc;
+  line-height: 160%;
+}
+#check-btn {
+  width: 105px;
+  height: 58px;
+  background: linear-gradient(0.15turn, #996dff, #c7afff);
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 0 16px;
+}
+
+#check-btn:focus {
+  color: #996dff;
+  background: rgb(0 0 0 / 40%);
+  border: 1px solid #996dff;
+}
+#check-btn:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 100dvh;
+  height: 100dvh;
+  grid-area: b;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

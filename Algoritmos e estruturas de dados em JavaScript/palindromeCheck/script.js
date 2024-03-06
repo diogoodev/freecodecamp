@@ -2,7 +2,6 @@
 const inputCheck = document.getElementById("text-input");
 const checkButton = document.getElementById("check-btn");
 const result = document.getElementById("result");
-const palindromeA = "A";
 
 function emptyInput() {
   checkButton.addEventListener("click", () => {
@@ -12,51 +11,34 @@ function emptyInput() {
   });
 }
 
-//emptyInput();
 
-// fazer amanhã!
-function cleanInput(){
 
+// OK
+function cleanInput() {
+  const regex = /[\W_]/g;
+  const cleanString = inputCheck.value.replace(regex, "");
+  return cleanString;
+}
+// OK
+function lowercaseString(upperString) {
+  const lowerString = upperString.toLowerCase();
+  return lowerString;
 }
 
-// implementar um verificador simples de palindrome
+// OK!
 function inverteInput() {
   checkButton.addEventListener("click", () => {
-    let inputArray = [];
-    for (let i = 0; i < inputCheck.value.length - 1; i++) {
-      inputArray = inputCheck.value.slice("");
-    }
+    //* Limpa os caracteres indesejados da string e coloca em minusculo logo depois salva na variavel
+    const lowerInput = lowercaseString(cleanInput());
+    //* transformamos a string em um array de caracteres
+    let inputArray = lowerInput.slice("");
+    //* invertemos o array
     const inputArrayReverso = [...inputArray].reverse().join("");
-    console.log(inputArrayReverso)
-    console.log(inputCheck.value)
-    if (inputArrayReverso == inputCheck.value) {
-      result.textContent = `${inputCheck.value} is a palindrome`;
-    }
-    //return inputArrayReverso;
+       
+    inputArrayReverso === lowerInput ? result.textContent = `${inputCheck.value} is a palindrome`: result.textContent = `${inputCheck.value} is NOT a palindrome` ;
+    
   });
 }
 
-inverteInput();
-
-//function palindrome(){
-// checkButton.addEventListener("click", () => {
-
-//  });
-//}
-
-//palindrome()
-
-//When the #text-input element only contains the letter A and the #check-btn element is clicked, the #result element should contain the text A is a palindrome
-console.log(inputCheck.value);
-function checkLetterA() {
-  checkButton.addEventListener("click", () => {
-    if (inputCheck.value === palindromeA) {
-      // depois utilizar regex para ser tanto A como a
-      result.textContent = `${inputCheck.value} is a palindrome`;
-      console.log(inputCheck.value);
-    }
-  });
-}
-//checkLetterA();
-
-// When the #text-input element contains the text eye and the #check-btn element is clicked, the #result element should contain the text eye is a palindrome
+emptyInput()
+inverteInput()
