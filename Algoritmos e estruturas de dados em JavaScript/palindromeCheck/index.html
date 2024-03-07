@@ -18,31 +18,31 @@
   </head>
   <body>
     <div class="wrapper">
-    <main>
-
-      <h1 class="roboto-bold">Is it a Palindrome?</h1>
-      <p class="roboto-regular">Enter in text to check for a palindrome:</p>
-      <section>
-        <div class="input-field">
-          <input
-            type="text"
-            name="text-input"
-            class="roboto-regular text-input"
-            id="text-input"
-            placeholder="type something"
-          />
-          <!--onclick="emptyInput()"-->
-          <button id="check-btn" class="roboto-bold">
-            CHECK<span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-        </div>
-        <div id="result">resultado</div>
-      </section>
-      
-    </main>
-    <img src="./assets/BG.png" alt="background">
-
-  </div>
+      <main>
+        <section>
+          <h1 class="roboto-bold palindrome-title">Is it a Palindrome?</h1>
+          <p class="roboto-regular p-title">Enter in text to check for a palindrome:</p>
+          <div class="input-field">
+            <input
+              type="text"
+              name="text-input"
+              class="roboto-regular text-input"
+              id="text-input"
+              placeholder="type something"
+            />
+            <!--onclick="emptyInput()"-->
+            <button id="check-btn" class="roboto-bold">
+              CHECK<span class="material-symbols-outlined">
+                chevron_right
+              </span>
+            </button>
+          </div>
+          <div id="result"></div>
+        </section>
+      </main>
+      <div class="info"> <img src="https://media.discordapp.net/attachments/1063483373865144327/1215281914580307978/icon.png?ex=65fc2e7b&is=65e9b97b&hm=60b25d487cd3de2732fc916c7db2a057ef1b4984310998cae7eb9975164de387&=&format=webp&quality=lossless" alt="" /><p class="text-info"> A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p></div>
+      <img src="https://media.discordapp.net/attachments/1063483373865144327/1215281915146534943/BG.png?ex=65fc2e7b&is=65e9b97b&hm=90403cf7ae4cba90a4a337cbbb0b165b9e9820eff6148c979ac74c27b9345cc7&=&format=webp&quality=lossless&width=539&height=632" alt="background" id="background">
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
