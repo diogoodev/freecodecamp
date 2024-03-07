@@ -22,7 +22,7 @@ Sinta-se à vontade para explorar os diretórios correspondentes a cada curso, e
 - [Projetos](https://github.com/diogoodev/freecodecamp/tree/main/bancos-de-dados-relacionais)
 
 ## Projetos do curso Algoritmos e estruturas de dados em JavaScript
-- [Projeto de criação de verificador de palíndromo](/Algoritmos%20e%20estruturas%20de%20dados%20em%20JavaScript/palindromeCheck/index.html)
+- [Projeto de criação de verificador de palíndromo](Algoritmos%20e%20estruturas%20de%20dados%20em%20JavaScript/palindromeCheck/index.html)
 
 ## Como executar os projetos
 
